@@ -8,7 +8,7 @@ This is a maven project, so all dependencies should be handled for you. Just imp
 ## How to use
 Initial setup needs to be performed by filling in the `settings.properties` file under `src/main/resources/`. No need to use any quotes! Other than this, just provide the location of your settings-file as an input parameter to the Java process and you're good to go (for the example file, this would be `src/main/resources/settings.properties`)! 
 
-Schedule it somewhere to run as frequently as you like, but be aware that sending requests to the AoC-website more often than once every 15 minutes is frowned upon!
+Schedule it somewhere to run as frequently as you like, but be aware that sending requests to the AoC-website more often than once every 15 minutes is frowned upon (as a matter of fact: you risk of getting your IP blocked)!
 
 ```properties
 # Leaderboard ID: This is at the end of the URL used to view your leaderboard: https://adventofcode.com/<year>/leaderboard/private/view/<id>
